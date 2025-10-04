@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
           // Imagen de fondo
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage("../assets/fondoropa.png"),
+              image: AssetImage("assets/fondoropa.png"),
               fit: BoxFit.cover,
             ),
           ),
@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
                         height: 100,
                         width: 250,
                         child: Center(
-                          child: Image.asset("../assets/logomarca.png"),
+                          child: Image.asset("assets/logomarca.png"),
                         ),
                       ),
                     ],
@@ -160,7 +160,7 @@ class _HomePageState extends State<HomePage> {
         height: 50,
         width: 50,
         child: Image.asset(
-          "../assets/$image.png",
+          "assets/$image.png",
           color: Colors.white,
           colorBlendMode: BlendMode.srcIn,
         ),
