@@ -13048,7 +13048,8 @@ m.toString
 k.toString
 j=Math.max(m,k)
 l.toString
-p=new A.ak(j,Math.max(l,p))
+a=new A.ak(j,Math.max(l,p))
+p=a
 break $label0$0}p=d}return p},
 ai_(a,b,c,d,e,f,g,h,i){var s,r=null,q=A.av(),p=J.mw(new Array(4),t.dY)
 for(s=0;s<4;++s)p[s]=new A.tF(r,B.aM,B.a6,B.ai.i(0,B.ai)?new A.i5(1):B.ai,r,r,r,r,B.br,r)
@@ -56284,10 +56285,10 @@ $S:341}
 A.qg.prototype={
 am(){return new A.EF()}}
 A.EF.prototype={
-Y(a){var s=this,r=null,q=t.nA,p=A.di(A.kZ(A.c([A.ch(r,r,20),A.zk(B.yE,B.i,r),A.ch(r,r,30),A.ee("Mi tienda",A.cE(r,r,B.i,r,r,r,r,r,r,r,r,22,r,r,r,r,r,!0,r,r,r,r,r,r,r,r))],q),B.bj),B.m,r,60,r,r,1/0),o=A.ch(r,20,r),n=A.hp(A.m2(A.c([A.ch(r,40,r),A.ee("ORIGINAL STORE",A.cE(r,r,B.i,r,r,r,r,r,r,r,r,40,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),A.di(A.hp(A.a46("../assets/logomarca.png",r,r),r,r),r,r,100,r,r,250)],q)),r,r),m=A.ch(r,50,r),l=A.ee("\xa1Bienvenido!",A.cE(r,r,B.i,r,r,r,r,r,r,r,r,30,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),k=A.ch(r,35,r),j=A.xr(25)
+Y(a){var s=this,r=null,q=t.nA,p=A.di(A.kZ(A.c([A.ch(r,r,20),A.zk(B.yE,B.i,r),A.ch(r,r,30),A.ee("Mi tienda",A.cE(r,r,B.i,r,r,r,r,r,r,r,r,22,r,r,r,r,r,!0,r,r,r,r,r,r,r,r))],q),B.bj),B.m,r,60,r,r,1/0),o=A.ch(r,20,r),n=A.hp(A.m2(A.c([A.ch(r,40,r),A.ee("ORIGINAL STORE",A.cE(r,r,B.i,r,r,r,r,r,r,r,r,40,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),A.di(A.hp(A.a46("assets/logomarca.png",r,r),r,r),r,r,100,r,r,250)],q)),r,r),m=A.ch(r,50,r),l=A.ee("\xa1Bienvenido!",A.cE(r,r,B.i,r,r,r,r,r,r,r,r,30,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),k=A.ch(r,35,r),j=A.xr(25)
 return A.a8H(A.a8P(A.di(A.ch(A.m2(A.c([p,o,n,m,l,k,A.z3(r,A.di(A.hp(A.kZ(A.c([A.ee("Comprar",A.cE(r,r,B.i,r,r,r,r,r,r,r,r,20,r,r,B.au,r,r,!0,r,r,r,r,r,r,r,r)),A.ch(r,r,10),A.zk(B.je,B.i,r)],q),B.cD),r,r),r,new A.cu(B.m,r,r,j,r,r,B.a1),50,r,r,180),B.al,!1,r,r,r,r,r,r,r,r,r,r,r,r,new A.a_3(s,a),r,r,r),A.ch(r,30,r),A.hp(A.kZ(A.c([s.wI("instagram","www.instagram.com/"),A.ch(r,r,30),s.wI("facebook","www.facebook.com/?locale=es_LA"),A.ch(r,r,30),s.wI("whatsapp","www.whatsapp.com/?lang=es_LA"),A.ch(r,90,r)],q),B.cD),r,r),new A.C8(r),A.di(A.hp(A.ee("\xa9 2025 Desarrollado por P\xe9rez Griselda Soledad. Todos los derechos reservados",A.cE(r,r,B.oA,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),r,r),r,new A.cu(B.m,r,r,r,r,r,B.a1),20,r,r,1/0)],q)),645,1/0),r,B.vk,r,r,r,r)))},
 wI(a,b){var s=null
-return A.z3(s,A.di(A.a46("../assets/"+a+".png",B.i,B.hX),s,s,50,s,s,50),B.al,!1,s,s,s,s,s,s,s,s,s,s,s,s,new A.a_4(b),s,s,s)}}
+return A.z3(s,A.di(A.a46("assets/"+a+".png",B.i,B.hX),s,s,50,s,s,50),B.al,!1,s,s,s,s,s,s,s,s,s,s,s,s,new A.a_4(b),s,s,s)}}
 A.a_3.prototype={
 $0(){var s=this.a
 s.aK(new A.a_2(s,this.b))},
@@ -58312,16 +58313,16 @@ B.vh=new A.xt(B.EJ,B.fZ)
 B.tp=new A.BA(1,"fast")
 B.vi=new A.xt(B.tp,B.fZ)
 B.hZ=new A.ax(1/0,1/0,1/0,1/0)
-B.v5=new A.jN("../assets/fondoropa2.jpg",null,null)
+B.v4=new A.jN("../assets/fondoropa2.jpg",null,null)
 B.c4=new A.xv(2,"cover")
 B.aG=new A.mq(3,"noRepeat")
 B.at=new A.k8(2,"medium")
-B.xV=new A.k_(B.v5)
-B.a1=new A.xx(0,"rectangle")
-B.vj=new A.cu(null,B.xV,null,null,null,null,B.a1)
-B.v4=new A.jN("../assets/fondoropa.png",null,null)
 B.xU=new A.k_(B.v4)
-B.vk=new A.cu(null,B.xU,null,null,null,null,B.a1)
+B.a1=new A.xx(0,"rectangle")
+B.vj=new A.cu(null,B.xU,null,null,null,null,B.a1)
+B.v5=new A.jN("assets/fondoropa.png",null,null)
+B.xV=new A.k_(B.v5)
+B.vk=new A.cu(null,B.xV,null,null,null,null,B.a1)
 B.vl=new A.xv(6,"scaleDown")
 B.i_=new A.oZ(0,"tight")
 B.vm=new A.oZ(1,"max")
@@ -61299,4 +61300,3 @@ return}var s=document.scripts
 function onLoad(b){for(var q=0;q<s.length;++q){s[q].removeEventListener("load",onLoad,false)}a(b.target)}for(var r=0;r<s.length;++r){s[r].addEventListener("load",onLoad,false)}})(function(a){v.currentScript=a
 var s=A.a2N
 if(typeof dartMainRunner==="function"){dartMainRunner(s,[])}else{s([])}})})()
-//# sourceMappingURL=main.dart.js.map
