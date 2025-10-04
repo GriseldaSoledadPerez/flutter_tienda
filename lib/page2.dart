@@ -22,7 +22,7 @@ class _Page2State extends State<Page2> {
               // Imagen de fondo
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage("../assets/fondoropa2.jpg"),
+                  image: AssetImage("assets/fondoropa2.jpg"),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -72,19 +72,19 @@ class _Page2State extends State<Page2> {
                               productoRopa(
                                 "Remera Over",
                                 15000,
-                                "../assets/remera.jpg",
+                                "assets/remera.jpg",
                               ),
 
                               productoRopa(
                                 "Remera pink",
                                 16000,
-                                "../assets/remera2.jpg",
+                                "assets/remera2.jpg",
                               ),
 
                               productoRopa(
                                 "Remera pink",
                                 12000,
-                                "../assets/remera3.jpg",
+                                "assets/remera3.jpg",
                               ),
                             ],
                           ),
